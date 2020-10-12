@@ -7,9 +7,6 @@ import SignUp from "./components/SignUp";
 import DisplayPage from "./components/DisplayPage";
 
 function App() {
-  // const{hasAccount,setHasAccount=false}=props;
-
-
   return (
     <>
        <Router>

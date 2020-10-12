@@ -4,8 +4,7 @@ import '../styles/Header.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBookOpen, faTimes, faBars } from "@fortawesome/free-solid-svg-icons";
 
-function Header(props) {
-  const{hasAccount, setHasAccount}=props;
+function Header() {
   const [click, setClick] = useState(false);
   const toggleMenu = () => setClick(!click);
   const closeMobileMenu=()=>setClick(false)

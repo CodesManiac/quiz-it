@@ -10,15 +10,15 @@ function AlternateDisplay() {
      <div className='alternate-view-container'>
         
       <div className="alternate-child">
-        <img src={card1} className='card-image'/>
+        <img src={card1} className='card-image' alt='lady'/>
         <h2>You should never stop learning</h2>
     </div>
       <div className="alternate-child">
-        <img src={card2} className='card-image'/>
+        <img src={card2} className='card-image' alt='child'/>
         <h2>Learning should be fun, don't you think?</h2>
       </div>
       <div className="alternate-child">
-        <img src={card3} className='card-image'/>
+        <img src={card3} className='card-image' alt='class'/>
         <h2>Wanna Stand Out? Practice</h2></div>
       <div className="alternate-child" id='last-card'>
         <h2>Having Fun?</h2>
