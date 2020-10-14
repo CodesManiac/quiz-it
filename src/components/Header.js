@@ -30,7 +30,7 @@ function Header() {
                   <NavLink to='/sign-up' className='nav-links' onClick={closeMobileMenu}>Sign up</NavLink>
               </li>
               <li className='nav-item'>
-                  <NavLink to='/sign-in'className='nav-links' onClick={closeMobileMenu}>Sign up</NavLink>
+                  <NavLink to='/sign-in'className='nav-links' onClick={closeMobileMenu}>Sign in</NavLink>
               </li>  
           </ul>
         </div>
